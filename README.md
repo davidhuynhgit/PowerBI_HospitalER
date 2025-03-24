@@ -38,11 +38,12 @@ To optimize performance and structure, **Power Query** was used to transform the
     -	Dim_Date: Contains Date, DateKey, DayNo, and isWeekend fields for date-based analysis.
     -	Dim_Time: Includes Hour, Minute, Second, and Time fields to enable time-based insights.
 ## 📐 Data Modeling
-Below is the **star schema model** used in this project:
- ![](images/Data_Model.png)
+Below is the **star schema model** and support tables used in this project:
+ ![](images/schema.png)
 ## 📈 Analysis & Visualizations
- ![](images/Monthly_Sales.png)
- ![](images/Product_Report.png)
+ ![](images/VisitOverview.png)
+ ![](images/PatientOverview.png)
+  ![](images/SatisfactionOverview.png)
 The Power BI dashboard consists of various visual elements to display insights:
 1.	**Total Sales Analysis** - Card & Line Chart showing sales trends.
 2.	**Total Order Analysis** - Card & Line Chart tracking order volume.
@@ -56,10 +57,7 @@ The Power BI dashboard consists of various visual elements to display insights:
 10.	**Calendar Map for Monthly & Day-wise Analysis** - Filtering sales data using a calendar map.
 11.	**Tooltip in Calendar Map & Days-Hours Chart** - Interactive tooltips for more detailed insights.
 ## 📌 Conclusion & Recommendations
-- **High Sales Days:** Sales peak during weekends and early morning hours.
-- **Top Products:** The best-selling products are cappuccinos and espresso-based drinks.
-- **Store Performance:** Some locations outperform others due to high foot traffic.
-- **Promotional Strategy:** Offering discounts on slow-selling products can help balance demand.
+...
 ## 🚀 How to Use This Dashboard
 1.	Download the .pbix file from the repository.
 2.	Open Power BI Desktop and load the file.
