@@ -39,11 +39,11 @@ To optimize performance and structure, **Power Query** was used to transform the
     -	Dim_Time: Includes Hour, Minute, Second, and Time fields to enable time-based insights.
 ## 📐 Data Modeling
 Below is the **star schema model** and support tables used in this project:
- ![](images/schema.png)
+ ![](images/Schema.PNG)
 ## 📈 Analysis & Visualizations
- ![](images/VisitOverview.png)
- ![](images/PatientOverview.png)
-  ![](images/SatisfactionOverview.png)
+ ![](images/VisitOverview.PNG)
+ ![](images/PatientOverview.PNG)
+  ![](images/SatisfactionOverview.PNG)
 The Power BI dashboard consists of various visual elements to display insights:
 1.	**Total Sales Analysis** - Card & Line Chart showing sales trends.
 2.	**Total Order Analysis** - Card & Line Chart tracking order volume.
