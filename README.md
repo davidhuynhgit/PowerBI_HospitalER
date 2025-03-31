@@ -4,11 +4,11 @@ This Power BI project analyzes emergency room (ER) data to provide actionable in
 
 ## ❓ Problem Statement
 The hospital's emergency room (ER) is experiencing challenges in patient admission management and operational efficiency. Key areas of concern include:
-- Patient Visit Trends – Understanding daily, weekly, and seasonal fluctuations in ER visits.
-- Wait Time Management – Analyzing the time patients spend before receiving treatment and its impact on patient satisfaction.
-- Demographic Insights – Evaluating patient distribution by age, gender, and race to ensure equitable healthcare access.
-- Department Referrals – Understanding which departments receive the most ER patients and the relationship with waiting time and satisfactions.
-- Peak Hours & Resource Allocation – Identifying high-traffic periods to optimize staff scheduling and medical resource allocation.
+- **Patient Visit Trends** – Understanding daily, weekly, and seasonal fluctuations in ER visits.
+- **Wait Time Management** – Analyzing the time patients spend before receiving treatment and its impact on patient satisfaction.
+- **Demographic Insights**– Evaluating patient distribution by age, gender, and race to ensure equitable healthcare access.
+- **Department Referrals** – Understanding which departments receive the most ER patients and the relationship with waiting time and satisfactions.
+- **Peak Hours & Resource Allocation** – Identifying high-traffic periods to optimize staff scheduling and medical resource allocation.
 
 The goal is to analyze these factors using a Power BI dashboard to improve ER efficiency, reduce waiting times, enhance resource planning, and ultimately provide better patient care. 🚑📊
 
@@ -17,7 +17,7 @@ The goal is to analyze these factors using a Power BI dashboard to improve ER ef
 ## 📊 Dataset Information
 - Source: Excel file containing sales data.
 - Key Columns:
-    - Date
+    - date
     - patient_gender
     - patient_age
     - patient_sat_score
@@ -46,7 +46,8 @@ Below is the **star schema model** and support tables used in this project:
   ![](images/SatisfactionOverview.PNG)
   
 The Power BI dashboard consists of various visual elements to display insights:
-...
+1. Total Sales Analysis - Card & Line Chart showing sales trends.
+2. Total Order Analysis - Card & Line Chart tracking order volume.
 
 ## 📌 Conclusion & Recommendations
 ...
