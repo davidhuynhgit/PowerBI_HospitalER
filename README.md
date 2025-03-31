@@ -25,15 +25,13 @@ The goal is to analyze these factors using a Power BI dashboard to improve ER ef
     - patient_admin_flag
     - patient_waittime
     - department_referral
-![image](https://github.com/user-attachments/assets/d7ed793b-f5e5-49f5-a2f4-db74c3f2df74)
-
 
 ## 🔄 Data Transformation
 To optimize performance and structure, **Power Query** was used to transform the raw dataset into a **star schema model**. The original dataset was broken down into:
 -	**Fact Table**:
-    -	Fact_Sales: ...   
+    -	Hospital ER: Contains transactional patients' visits including date, gender, age, satisfaction score, race, admin_flag, waittime and department referral.
 -	After applying transformations in Power Query and loading the data into **Power BI Desktop**, two additional dimension tables were added to support **time intelligence calculations**:
-    -	Dim_Date: Contains Date, DateKey, DayNo, and isWeekend fields for date-based analysis.
+    -	Dim_Date: Contains Date, DateKey, DayNo, Weekday, Quarter, and isWeekend fields for date-based analysis.
     -	Dim_Time: Includes Hour, Minute, Second, and Time fields to enable time-based insights.
     -	
 ## 📐 Data Modeling
