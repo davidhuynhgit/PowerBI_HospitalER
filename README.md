@@ -16,7 +16,17 @@ The goal is to analyze these factors using a Power BI dashboard to improve ER ef
 -	**Power BI** for data visualization, modeling, and analysis.
 ## 📊 Dataset Information
 - Source: Excel file containing sales data.
-- Key Columns:...
+- Key Columns:
+    - Date
+    - patient_gender
+    - patient_age
+    - patient_sat_score
+    - patient_race
+    - patient_admin_flag
+    - patient_waittime
+    - department_referral
+![image](https://github.com/user-attachments/assets/d7ed793b-f5e5-49f5-a2f4-db74c3f2df74)
+
 
 ## 🔄 Data Transformation
 To optimize performance and structure, **Power Query** was used to transform the raw dataset into a **star schema model**. The original dataset was broken down into:
