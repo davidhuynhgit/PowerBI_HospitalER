@@ -1,10 +1,17 @@
 # 🏥 Hospital Emergency Room Analysis - Power BI Dashboard
 ## 📌 Project Overview
-This Power BI project analyzes sales data for ... to provide actionable insights into various aspects of ... performance. The dashboard helps the ... track... performance across different aspects and time periods.
-## ❓ Problem Statement
-...
+This Power BI project analyzes emergency room (ER) data to provide actionable insights into patients' visits, waiting time, and satisfaction. The dashboard helps hospital administrators and medical staff monitor ER performance, optimize resource allocation, and improve patient care by identifying trends in admissions, and peak visit periods.
 
-The goal is to analyze these aspects to **identify key ... and areas for improvement**.
+## ❓ Problem Statement
+The hospital's emergency room (ER) is experiencing challenges in patient admission management and operational efficiency. Key areas of concern include:
+- Patient Visit Trends – Understanding daily, weekly, and seasonal fluctuations in ER visits.
+- Wait Time Management – Analyzing the time patients spend before receiving treatment and its impact on patient satisfaction.
+- Demographic Insights – Evaluating patient distribution by age, gender, and race to ensure equitable healthcare access.
+- Department Referrals – Understanding which departments receive the most ER patients and the relationship with waiting time and satisfactions.
+- Peak Hours & Resource Allocation – Identifying high-traffic periods to optimize staff scheduling and medical resource allocation.
+
+The goal is to analyze these factors using a Power BI dashboard to improve ER efficiency, reduce waiting times, enhance resource planning, and ultimately provide better patient care. 🚑📊
+
 ## 🛠️ Skills Demonstrated
 -	**Power BI** for data visualization, modeling, and analysis.
 ## 📊 Dataset Information
