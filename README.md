@@ -39,9 +39,9 @@ Below is the **star schema model** and support tables used in this project:
  ![](images/Schema.PNG)
  
 ## 📈 Analysis & Visualizations
-![](images/VisitOverview.PNG)
+![](images/VisitOverview.PNGl)
  
-![](images/PatientOverview.PNG)
+![](images/PatientOverview.PNGl)
  
 ![](images/SatisfactionOverview.PNG)
   
