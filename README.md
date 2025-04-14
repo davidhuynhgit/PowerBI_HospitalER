@@ -39,11 +39,11 @@ Below is the **star schema model** and support tables used in this project:
  ![](images/Schema.PNG)
  
 ## 📈 Analysis & Visualizations
- ![](images/VisitOverview.PNG)
+![](images/VisitOverview.PNG)
  
- ![](images/PatientOverview.PNG)
+![](images/PatientOverview.PNG)
  
-  ![](images/SatisfactionOverview.PNG)
+![](images/SatisfactionOverview.PNG)
   
 The Power BI dashboard consists of various visual elements to display insights:
 1. **Total Patients Analysis** - Card & Variation Display showing visits trends.
